@@ -1,0 +1,33 @@
+name: aplikasi_instagram
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Profile 1.jpg
+    - assets/Profile 2.jpg
+    - assets/Profile 3.jpg
+    - assets/Profile 4.jpg
+    - assets/Post 1.jpg
+    - assets/Post 2.jpg
+    - assets/Post 3.jpg
